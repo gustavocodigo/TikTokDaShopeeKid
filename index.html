@@ -8,10 +8,9 @@
     <title>Document</title>
 </head>
 
-<body>
+<body onload="main()">
 
-    <body>
-
+ 
 
         <header>
             <img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png"
@@ -66,7 +65,7 @@
             </div>
 
         </div>
-    </body>
+    
 </body>
 
 
@@ -168,3 +167,12 @@
 
 
 </html>
+
+
+<script>
+	async function main(){
+	let response = await fetch("https://youtube-downloader-api2.glitch.me/video-info?url=https://youtu.be/ZsPGtjPzR6M")
+	let data =await response.json()
+	document.getElementById("video-player").src = data.videoUrl
+	}
+</script>
