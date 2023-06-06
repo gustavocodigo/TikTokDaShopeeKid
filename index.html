@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+
+<header>
+<img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png"  height="70">
+	<h3>TIKTOK DA SHOPEE</h3>
+</header>
+
+
+
+<div id="player">
+
+ <h1><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+</svg></h1>
+
+<video id="video-player" autoplay="false" style="position: relative" controls="" name="media">
+            <source id="video-player-src" src="https://rr11---sn-pmcg-4vgl.googlevideo.com/videoplayback?expire=1686036751&ei=r4x-ZPHeMo7h8wS44KjYAg&ip=3.226.76.80&id=o-AEGHLhc9-FXLfbEo_Ud0EZ4UtUJkwN_r5NHGX_mzb-oS&itag=22&source=youtube&requiressl=yes&spc=qEK7ByoTCC-JOIwb8GtdBEt9FeysQkHIrm41_qiw5Q&vprv=1&svpuc=1&mime=video%2Fmp4&ns=LamcsEPq7sV8v7MUze-XmcEN&cnr=14&ratebypass=yes&dur=14.373&lmt=1685173860361563&fexp=24007246,24350018,24362687&beids=24350018&c=WEB&txp=5532434&n=rGSkZRhKnTN2NhX&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgNBn1gG1OtG3hBJwIRUlQhn-Rs0aWCR-EVMDj0W3aZnMCIQCMhB2UZtZ-nFpMcWdxNBKUNGI4ky6IpaueGt0A_28hRQ%3D%3D&rm=sn-p5qell76&req_id=ab5a1c3433aca3ee&ipbypass=yes&redirect_counter=2&cm2rm=sn-0aug5oxujx-4vge7s&cms_redirect=yes&cmsv=e&mh=xC&mip=2804:7948:2115:cd00:f853:c2a0:df83:a891&mm=29&mn=sn-pmcg-4vgl&ms=rdu&mt=1686014447&mv=m&mvi=11&pl=36&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgDEPwLfYCsz21aMNSKp4F-aOBUwOS7fiYfq4RK62JJVMCIQCZAcGckmJSr-lDT03slZOcFHTBCheaZyINjfabndboCQ%3D%3D" type="video/mp4">
+          </video>
+          
+  <h1><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+</svg></h1>
+
+
+</div>
+
+     
+          
+          <div id="controls">
+         <div>
+         
+         
+         
+         </div>
+         
+         <div>
+         
+          <h2>999k</h2>
+         
+ <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f51836" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+  <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+</svg>
+         </div>
+        
+          </div>
+</body>
+          </div>
+       
+
+</html>
+
+
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+   
+}
+
+body > header {
+	height: 120px;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    gap: 40px;
+   	
+    align-items: center;
+}
+
+
+#video-player {
+	
+    display: block;
+    margin-top: 80px;
+    min-height: 600px;
+    height: calc(100vh - 300px);
+    
+
+    max-width: calc(100% - 100px);
+    padding: 2px;
+  
+    
+}
+
+#controls {
+	display: flex;
+  
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 20%;
+   gap: 10%;
+}
+
+
+
+#controls h1 {
+	scale: 0.9;
+    transition: 0.5s;
+}
+
+#controls > div {
+	display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#controls h1:hover {
+	transition: 0.5s;
+	cursor: pointer;
+    scale: 1;
+}
+
+
+#player {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+
+</style>
+
+
+
+<script>
+
+const videos = ["
+
+"]
+
+
+
+
+
